@@ -1,0 +1,8 @@
+  <unk> id in /home/rcf-proj/pn4/krsharma/bivec/data/nc-unpar/ru-en.ru.vocab.min5 = 190755
+  <unk> id in /home/rcf-proj/pn4/krsharma/bivec/data/nc-unpar/ru-en.en.vocab.min5 = 102201
+
+## Start iter 0, alpha=0.025000 ... /home/rcf-proj/pn4/krsharma/bivec/run_mod.sh: line 79: 51376 Segmentation fault      /home/rcf-proj/pn4/krsharma/bivec/mod -align /home/rcf-proj/pn4/krsharma/bivec/data/nc-unpar/ru-en.aligned -align-opt 1 -src-train /home/rcf-proj/pn4/krsharma/bivec/data/nc-unpar/ru-en.ru -tgt-train /home/rcf-proj/pn4/krsharma/bivec/data/nc-unpar/ru-en.en -src-lang ru -tgt-lang en -output /home/rcf-proj/pn4/krsharma/bivec/trained/nc-unpar_run_mod.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw25/out -cbow 0 -size 40 -window 5 -negative 10 -hs 0 -threads 20 -binary 0 -iter 10 -eval 0 -alpha 0.025 -sample 0.001 -tgt-sample 0.001 -bi-weight 15
+
+real	21m21.695s
+user	142m32.026s
+sys	0m5.133s

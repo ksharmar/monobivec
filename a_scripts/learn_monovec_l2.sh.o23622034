@@ -1,0 +1,58 @@
+----------------------------------------
+Begin PBS Prologue Wed Jun 28 12:18:34 PDT 2017
+Job ID:            23622034.hpc-pbs1.hpcc.usc.edu
+Username:          krsharma
+Accountname:       default
+Group:             csci-ar
+Project:           default
+Name:              learn_monovec_l2.sh
+Queue:             main
+Shared Access:     no
+All Cores:         no
+Has MIC:           no
+Is hsda:           false
+Nodes:             hpc3227 
+TMPDIR:            /tmp/23622034.hpc-pbs1.hpcc.usc.edu
+End PBS Prologue Wed Jun 28 12:18:35 PDT 2017
+----------------------------------------
+
+Bivec training
+2017/06/28::12::18::36
+negStr=-negative 10 -hs 0
+# outputDir=/home/rcf-proj/pn4/krsharma//bivec/trained/_ru
+
+# Executing: mkdir -p /home/rcf-proj/pn4/krsharma//bivec/trained/_ru
+# Script dir = /home/rcf-proj/pn4/krsharma/bivec
+
+# Executing: cd /home/rcf-proj/pn4/krsharma/bivec
+rm -rf bivec word2phrase distance word-analogy compute-accuracy runCLDC
+gcc bivec.c -o bivec -lm -pthread -march=native -Wall -funroll-loops -Ofast -Wno-unused-result
+gcc distance.c -o distance -lm -pthread -march=native -Wall -funroll-loops -Ofast -Wno-unused-result
+
+# Executing: time /home/rcf-proj/pn4/krsharma/bivec/bivec -src-train /home/rcf-proj/pn4/krsharma//bivec/data/_ru/ru-en.ru -src-lang ru -output /home/rcf-proj/pn4/krsharma//bivec/trained/_ru/model -cbow 0 -size 40 -window 5 -negative 10 -hs 0 -sample 1e-5 -threads 20 -binary 0 -iter 10 -min-count 10
+# layer1_size (emb dim)=40
+# output_prefix=/home/rcf-proj/pn4/krsharma//bivec/trained/_ru/model
+# src lang=ru
+# MAX_STRING=4096
+# absolute path=/auto/rcf-proj/pn4/krsharma/bivec/trained/_ru/model
+Starting training using src-file /home/rcf-proj/pn4/krsharma//bivec/data/_ru/ru-en.ru
+# Vocab file /home/rcf-proj/pn4/krsharma//bivec/data/_ru/ru-en.ru.vocab.min10 doesn't exists. Deriving ...
+# Learn vocab from /home/rcf-proj/pn4/krsharma//bivec/data/_ru/ru-en.ru
+ERROR: training data file not found!
+----------------------------------------
+Begin PBS Epilogue Wed Jun 28 12:18:40 PDT 2017
+Job ID:           23622034.hpc-pbs1.hpcc.usc.edu
+Username:         krsharma
+Accountname:      default
+Group:            csci-ar
+Job Name:         learn_monovec_l2.sh
+Session:          28955
+Limits:           neednodes=1:ppn=8:gpus=1,nodes=1:ppn=8:gpus=1,walltime=06:59:59
+Resources:        cput=00:00:03,energy_used=0,mem=120044kb,vmem=940360kb,walltime=00:00:05
+Queue:            main
+Shared Access:    no
+Has MIC:          no
+Is hsda:          false
+removed '/scratch'
+End PBS Epilogue Wed Jun 28 12:18:40 PDT 2017
+----------------------------------------

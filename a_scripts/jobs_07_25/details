@@ -1,0 +1,17 @@
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc_run_bi.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw1.sh
+23610489.hpc-pbs1.hpcc.usc.edu
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc_run_mod.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw1.sh
+23610490.hpc-pbs1.hpcc.usc.edu
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc-unpar_run_mod.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw1.sh
+23610491.hpc-pbs1.hpcc.usc.edu
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc-wiki_run_mod.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw1.sh
+23610492.hpc-pbs1.hpcc.usc.edu
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc-wiki_run_mod.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw4.sh
+23610493.hpc-pbs1.hpcc.usc.edu
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc-unpar_run_mod.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw4.sh
+23610494.hpc-pbs1.hpcc.usc.edu
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc_run_mod.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw4.sh
+23610495.hpc-pbs1.hpcc.usc.edu
+[krsharma@hpc-login2 jobs_07_25]$ qsub nc_run_bi.sh_dim40_1_iter10_threads20_neg10_0_alpha0.025_sample0.001_tgtsample0.001_biw4.sh
+23610496.hpc-pbs1.hpcc.usc.edu
+

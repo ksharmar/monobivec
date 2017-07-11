@@ -1,0 +1,72 @@
+  <unk> id in /nfs/isicvlnas01/users/ksharma//bivec/data/1_ru-en/ru-en.ru.vocab.min5 = 51524
+  <unk> id in /nfs/isicvlnas01/users/ksharma//bivec/data/1_ru-en/ru-en.en.vocab.min5 = 28753
+
+## Start iter 0, alpha=0.025000 ... 
+# Done iter 0, alpha=0.020242, 
+# eval 0, # eval 0 ru wordSim./run_wordSim.sh: line 27: matlab: command not found
+# eval 0 en wordSim./run_wordSim.sh: line 27: matlab: command not found
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 0 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 0 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 1, alpha=0.020242 ... 
+# Done iter 1, alpha=0.015242, 
+# eval 1, # eval 1 ru wordSim./run_wordSim.sh: line 27: matlab: command not found
+# eval 1 en wordSim./run_wordSim.sh: line 27: matlab: command not found
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 1 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 1 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 2, alpha=0.015242 ... 
+# Done iter 2, alpha=0.010242, 
+# eval 2, # eval 2 ru wordSim./run_wordSim.sh: line 27: matlab: command not found
+# eval 2 en wordSim./run_wordSim.sh: line 27: matlab: command not found
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 2 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 2 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 3, alpha=0.010242 ... 
+# Done iter 3, alpha=0.005242, 
+# eval 3, # eval 3 ru wordSim./run_wordSim.sh: line 27: matlab: command not found
+# eval 3 en wordSim./run_wordSim.sh: line 27: matlab: command not found
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 3 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 3 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 4, alpha=0.005242 ... 
+# Done iter 4, alpha=0.000242, 
+# eval 4, # eval 4 ru wordSim./run_wordSim.sh: line 27: matlab: command not found
+# eval 4 en wordSim./run_wordSim.sh: line 27: matlab: command not found
+# eval 4 en analogy./run_analogy.sh: line 24: matlab: command not found
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 4 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 4 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+real	1m8.130s
+user	16m26.551s
+sys	0m5.594s

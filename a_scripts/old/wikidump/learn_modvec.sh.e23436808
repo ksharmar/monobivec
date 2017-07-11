@@ -1,0 +1,158 @@
+  <unk> id in /home/rcf-proj/pn4/krsharma/bivec/data/4_ru-en/ru-en.ru.vocab.min5 = 535107
+  <unk> id in /home/rcf-proj/pn4/krsharma/bivec/data/4_ru-en/ru-en.en.vocab.min5 = 271179
+
+## Start iter 0, alpha=0.025000 ... 
+# Done iter 0, alpha=0.021260, 
+# eval 0, # eval 0 ru wordSim{Undefined function or variable 'dataSets'.
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+# eval 0 en wordSim{Error using textscan
+Unknown parameter 'bufsize'.
+
+Error in loadWordSimData (line 6)
+  fileLines = textscan(fid, '%s', 'delimiter', '\n', 'bufsize', 100000);
+
+
+Error in evaluateWordSim>simEval (line 61)
+    [datum.wordPairs, datum.humanScores] = loadWordSimData(testFile, 0, '\t');
+    % no header, '\s+'
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 0 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 0 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 1, alpha=0.021260 ... 
+# Done iter 1, alpha=0.016260, 
+# eval 1, # eval 1 ru wordSim{Undefined function or variable 'dataSets'.
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+# eval 1 en wordSim{Error using textscan
+Unknown parameter 'bufsize'.
+
+Error in loadWordSimData (line 6)
+  fileLines = textscan(fid, '%s', 'delimiter', '\n', 'bufsize', 100000);
+
+
+Error in evaluateWordSim>simEval (line 61)
+    [datum.wordPairs, datum.humanScores] = loadWordSimData(testFile, 0, '\t');
+    % no header, '\s+'
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 1 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 1 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 2, alpha=0.016260 ... 
+# Done iter 2, alpha=0.011260, 
+# eval 2, # eval 2 ru wordSim{Undefined function or variable 'dataSets'.
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+# eval 2 en wordSim{Error using textscan
+Unknown parameter 'bufsize'.
+
+Error in loadWordSimData (line 6)
+  fileLines = textscan(fid, '%s', 'delimiter', '\n', 'bufsize', 100000);
+
+
+Error in evaluateWordSim>simEval (line 61)
+    [datum.wordPairs, datum.humanScores] = loadWordSimData(testFile, 0, '\t');
+    % no header, '\s+'
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 2 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 2 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 3, alpha=0.011260 ... 
+# Done iter 3, alpha=0.006260, 
+# eval 3, # eval 3 ru wordSim{Undefined function or variable 'dataSets'.
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+# eval 3 en wordSim{Error using textscan
+Unknown parameter 'bufsize'.
+
+Error in loadWordSimData (line 6)
+  fileLines = textscan(fid, '%s', 'delimiter', '\n', 'bufsize', 100000);
+
+
+Error in evaluateWordSim>simEval (line 61)
+    [datum.wordPairs, datum.humanScores] = loadWordSimData(testFile, 0, '\t');
+    % no header, '\s+'
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 3 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 3 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+## Start iter 4, alpha=0.006260 ... 
+# Done iter 4, alpha=0.001260, 
+# eval 4, # eval 4 ru wordSim{Undefined function or variable 'dataSets'.
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+# eval 4 en wordSim{Error using textscan
+Unknown parameter 'bufsize'.
+
+Error in loadWordSimData (line 6)
+  fileLines = textscan(fid, '%s', 'delimiter', '\n', 'bufsize', 100000);
+
+
+Error in evaluateWordSim>simEval (line 61)
+    [datum.wordPairs, datum.humanScores] = loadWordSimData(testFile, 0, '\t');
+    % no header, '\s+'
+
+Error in evaluateWordSim (line 47)
+  [corrScores, data] = simEval(We, vocabMap, unkStr, dataDir, dataSets);
+} 
+# eval 4 en analogy sem 5.56 syn 24.06 all 19.21
+eval analogy 5.56 24.06 19.21
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 4 de2en cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+Error: Could not find or load main class CollectionPreprocessor
+Error: Could not find or load main class CollectionPreprocessor
+# eval 4 en2de cldcError: Could not find or load main class ApLearn
+Error: Could not find or load main class ApClassify
+
+real	101m36.524s
+user	662m51.319s
+sys	2m0.521s

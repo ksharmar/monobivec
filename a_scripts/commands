@@ -1,0 +1,1 @@
+gcc modvec.c -lm -pthread -o modvec
