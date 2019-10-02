@@ -16,6 +16,8 @@ Adaptation: Including monolingual data in the training process similar to regula
 
 Documentation of experimental evaluation and comparisons found under Bilingual Embeddings Experiments.pdf.
 
+- Work done with Scott Miller and Prem Natarajan.
+
 
 
 
