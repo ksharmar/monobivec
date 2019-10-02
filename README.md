@@ -14,7 +14,7 @@ Adaptation: Including monolingual data in the training process similar to regula
 
 ## Experiments
 
-Documentation of experimental evaluation and comparisons found in ... Bilingual Embeddings Experiments.pdf in this repo.
+Documentation of experimental evaluation and comparisons found under Bilingual Embeddings Experiments.pdf.
 
 
 
