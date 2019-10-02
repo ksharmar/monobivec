@@ -1,4 +1,4 @@
-# Bilingual Embeddings trained with parallel + monolingual data for low resource (monobivec)
+# Bilingual Embeddings trained with parallel + monolingual data for low resource languages (monobivec)
 
 ## Description
 This project is aimed at learning bilingual word representations under low resource settings (from limited parallel corpora) by leveraging easily available monolingual corpora in each language.
